@@ -9,7 +9,7 @@ image:
 service:
   name: nginx
   type: ClusterIP
-  externalPort: 38443
+  externalPort: 8443
   internalPort: 80
 resources:
   limits:
