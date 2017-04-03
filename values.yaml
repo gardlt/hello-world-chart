@@ -10,7 +10,7 @@ service:
   name: nginx
   type: ClusterIP
   externalPort: 80
-  internalPort: 80
+  internalPort: 443
 resources:
   limits:
     cpu: 100m
